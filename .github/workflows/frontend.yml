@@ -31,5 +31,5 @@ jobs:
           file: ./dockerfile.v1
           push: true
           tags: |
-            kveen/lab8:ghfrontend1
+            kveeen/lab8:ghfrontend1
           

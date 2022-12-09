@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: kveen/lab8:v1
+          images: kveeen/lab8:v1
 
       - name: Build and push Docker image
         id: docker_build

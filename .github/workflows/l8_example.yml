@@ -47,7 +47,7 @@ jobs:
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,mode=max,dest=/tmp/.buildx-cache-new
           tags: |
-            kveen/lab8:gh_lab80
+            kveeen/lab8:gh_lab80
 
       - name: Move cache
         run: |
